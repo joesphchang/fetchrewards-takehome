@@ -87,7 +87,7 @@ function SignUp() {
 				style={{
 					display: submitted ? '' : 'none',
 				}}>
-				<h1>User {signup.name} successfully registered!!</h1>
+				<h1>Thank you {signup.name} for Signing Up!</h1>
 			</div>
 		);
 	};
@@ -198,7 +198,7 @@ function SignUp() {
 						</option>
 					))}
 				</select>
-				<input type='submit' value='Sign Up' className='signup__main-button' />
+				<button type='submit' value='Sign Up' className='signup__main-button'><span>Submit</span></button>
 			</form>
 		</div>
 	);

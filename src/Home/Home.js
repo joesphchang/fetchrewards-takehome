@@ -4,7 +4,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 // Assets
-import FetchLogo from '../assets/fetch-logo-01.jpeg';
+import FetchLogo from '../assets/fetch__logo.png';
+
 
 function Home() {
 	return (

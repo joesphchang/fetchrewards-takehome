@@ -26,3 +26,9 @@ This is an application taking a user through an experience of a sign-up form. TH
 
 ### Stretch Goals
 - As a user, I want to be able to see a success feedback after form is succesfully submitted. 
+
+### Current Application State
+
+![FETCHREWARDS](src/assets/home_page.png)
+![FETCHREWARDS](src/assets/signup_page.png)
+![FETCHREWARDS](src/assets/success_page.png)
