@@ -1,11 +1,20 @@
+// React
+import { Routes, Route } from 'react-router-dom';
+
+// Stylesheets
 import './App.css';
+
+// Components
 import SignUp from './SignUp/SignUp';
+import Home from './Home/Home';
 
 function App() {
   return (
     <div className="main__container">
-      <h1>Fetch Take Home Assessment</h1>
-      <SignUp />
+      <Home />
+      <Routes>
+        <Route path='/signup' element={<SignUp />} />
+      </Routes>
     </div>
   );
 }
