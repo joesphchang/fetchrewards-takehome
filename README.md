@@ -1,7 +1,7 @@
 # Fetch Rewards Take Home Exercise
 
 ## Description
-This is an application taking a user through an experience of a sign-up form. THe user has to fill out the form using a name, email, password, occupation, and state they are from. Upon submission, once all fields are filled. The form will give a feed-back of success or incorrect/missing inputs. 
+This is an application taking a user through an experience of a sign-up form. The user has to fill out the form using a name, email, password, occupation, and state they are from. Upon submission, once all fields are filled. The form will give a feed-back of success or incorrect/missing inputs. 
 
 ## Installation Instructions:
 

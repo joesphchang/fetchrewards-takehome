@@ -33,7 +33,6 @@ function SignUp() {
 		axios
 			.post('https://frontend-take-home.fetchrewards.com/form', signup)
 			.then((res) => {
-				// console.log(res);
 			});
 	};
 
@@ -44,8 +43,6 @@ function SignUp() {
 			.then((res) => {
 				setFetchOccupation(res.occupations);
 				setFetchState(res.states);
-				// console.log(res.states);
-				// console.log(res.occupations);
 			});
 	}
 
@@ -198,8 +195,14 @@ function SignUp() {
 						</option>
 					))}
 				</select>
-				<button type='submit' value='Sign Up' className='signup__main-button'><span>Submit</span></button>
+				<button type='submit' value='Sign Up' className='signup__main-button'>
+					<span>Submit</span>
+				</button>
 			</form>
+			<h3 className='signup__privacy'>
+				By signing up, you agree to Fetch Rewards <span className='underline'>Privacy Policy
+				</span> and <span className='underline'>Terms of Use.</span>
+			</h3>
 		</div>
 	);
 }
